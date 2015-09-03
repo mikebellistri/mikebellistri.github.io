@@ -12,8 +12,8 @@ layout: default
     {% if site.logo %}
       <a class="blog-logo" href="{{site.url}}" style="background-image: url('{{ site.logo }}')">{{ site.title }}</a>
     {% endif %}
-    <h1 class="blog-title">{{ site.title }}</h1>
-    <h2 class="blog-description">{{ site.description }}</h2>
+    <h2 class="blog-title">{{ site.title }}</h2>
+    <h1 class="blog-description">{{ site.description }}</h1>
     <div class="custom-links">
       {% for social in site.social %}
         {% if social.url %}
@@ -24,6 +24,8 @@ layout: default
         {% endif %}
       {% endfor %}
       <a href="/about/">About</a>
+       &nbsp;&nbsp;·&nbsp;&nbsp;
+      <a href="/resume/">Resume</a>
     </div>
 </header>
 
@@ -78,7 +80,7 @@ layout: default
       {% if paginator.next_page %}
         <a class="newer-posts" href="/page{{paginator.next_page}}">&larr; Older posts</a>
       {% endif %}
-      <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+     <!--  <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span> -->
       {% if paginator.previous_page %}
         {% if paginator.page == 2 %}
           <a class="older-posts" href="/">Newer posts &rarr;</a>

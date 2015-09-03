@@ -11,17 +11,17 @@ description: > # this means to ignore newlines until "email:"
 
 email: m.g.bellistri@gmail.com
 #blog logo
-logo: "/assets/images/mb_icon.jpg"
+logo: "/assets/images/df_logo.jpg"
 # blog cover
 cover: "/assets/images/background_image.jpg"
 
 name: 'Michael Bellistri'
 author: 'Michael Bellistri'
-author_image: "/assets/images/professional_image.jpg"
+author_image: "/assets/images/profile.jpg"
 
 paginate:	5
 
-url: "http://mikebellistri.github.io" # the base hostname & protocol for your site
+url: "http://mikebellistri.github.com" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
 twitter_handle: '@mikebellistri'
