@@ -1,7 +1,7 @@
----
+<!-- ---
 layout: page
 title: Resume
 permalink: /resume/
 ---
 
-Resume goes here.
+Resume goes here. -->
